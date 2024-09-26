@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 python train_dual.py --noise_rate 0.4 --save ./checkpoints/model40_noise40/ --corrected --ma --warm_up 4 --w_cls_c 1 --w_sem_c 10 --w_inst_c 1 --dataset ModelNet40 --num_classes 40 --center_temp 0.22 --use_cross --w_cls_n 1 --w_sem_n 1 --w_inst_n 10 --wn 1 --jointed --fused_type concat --modal_name joint
