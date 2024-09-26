@@ -20,7 +20,7 @@ With the recent burst of 2D and 3D data, cross-modal retrieval has attracted inc
 #### ModelNet
 The point cloud data and noisy labels can be found from [RONO](https://github.com/penghu-cs/RONO/tree/ModelNet). All the 180-view images in ModelNet10/40 could be find in [CrossmodalCenterLoss](https://github.com/LongLong-Jing/Cross-Modal-Center-Loss/issues/2). 
 
-### Objaverse-N200
+#### Objaverse-N200
 We developed a realistic and noisy benchmark, Objaverse-N200, built upon the recently proposed 3D dataset, Objaverse. We utilize a large pre-trained model Uni3D to assign categories to these objects. The noisy labels colud be found in ./data/train_200.json. 
 ```json
 {
